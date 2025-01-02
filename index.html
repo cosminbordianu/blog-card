@@ -11,30 +11,42 @@
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
-
+    <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Blog preview card</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
-    Learning Published 21 Dec 2023 HTML & CSS foundations These languages are
-    the backbone of every website, defining structure, content, and
-    presentation. Greg Hooper
+    <main class="blog-card">
+      <img
+        src="./assets/images/illustration-article.svg"
+        alt="card illustration"
+        class="blog-image"
+      />
+      <div class="card-details">
+        <h2>Learning</h2>
+        <p>Published 21 Dec 2023</p>
+      </div>
+      <div class="card-description">
+        <h1><a href="#">HTML & CSS foundations</a></h1>
+        <p>
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
+      </div>
+      <div class="card-author">
+        <img
+          src="./assets/images/image-avatar.webp"
+          alt="avatar"
+          class="avatar"
+        />
+        <p>Greg Hooper</p>
+      </div>
+    </main>
 
-    <div class="attribution">
+    <footer class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+      >. Coded by <a href="#">Cosmin Bordianu</a>.
+    </footer>
   </body>
 </html>
